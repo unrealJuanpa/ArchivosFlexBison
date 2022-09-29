@@ -43,10 +43,9 @@
      NTABLA = 260,
      WHERE = 261,
      NOMBRE = 262,
-     IGUAL = 263,
-     OPERADOR = 264,
-     VALOR = 265,
-     EOL = 266
+     OPERADOR = 263,
+     VALOR = 264,
+     EOL = 265
    };
 #endif
 
