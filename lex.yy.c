@@ -789,7 +789,7 @@ YY_RULE_SETUP
 case 6:
 YY_RULE_SETUP
 #line 12 "delete.l"
-{ return NOMBRE;    }
+{ return NOMBREIGUAL;    }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP

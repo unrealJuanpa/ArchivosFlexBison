@@ -42,7 +42,7 @@
      FROM = 259,
      NTABLA = 260,
      WHERE = 261,
-     NOMBRE = 262,
+     NOMBREIGUAL = 262,
      OPERADOR = 263,
      VALOR = 264,
      EOL = 265

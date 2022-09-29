@@ -106,7 +106,7 @@ int yylex();
      FROM = 259,
      NTABLA = 260,
      WHERE = 261,
-     NOMBRE = 262,
+     NOMBREIGUAL = 262,
      OPERADOR = 263,
      VALOR = 264,
      EOL = 265
@@ -420,8 +420,8 @@ static const yytype_uint8 yyrline[] =
 static const char *const yytname[] =
 {
   "$end", "error", "$undefined", "DELETE", "FROM", "NTABLA", "WHERE",
-  "NOMBRE", "OPERADOR", "VALOR", "EOL", "$accept", "inicio", "expresion",
-  "condicion", 0
+  "NOMBREIGUAL", "OPERADOR", "VALOR", "EOL", "$accept", "inicio",
+  "expresion", "condicion", 0
 };
 #endif
 
