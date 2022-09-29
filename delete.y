@@ -9,7 +9,7 @@ int yylex();
 %token FROM
 %token NTABLA
 %token WHERE
-%token NOMBRE
+%token NOMBREIGUAL
 %token OPERADOR
 %token VALOR
 %token EOL
@@ -21,8 +21,8 @@ inicio	: expresion EOL								{ printf("Sintaxis correcta!\n"); return 0; }
 expresion: DELETE FROM NTABLA WHERE condicion
 		 ;											
 
-condicion: NOMBRE VALOR OPERADOR condicion
-		 | NOMBRE VALOR
+condicion: NOMBREIGUAL VALOR OPERADOR condicion
+		 | NOMBREIGUAL VALOR
 		 ;
 
 %%
